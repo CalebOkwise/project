@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-family: "poppins";
+   margin: 0px;
+   padding: 0px;
+
+}
+
+body{
+margin: 0px;
+margin-top: 0px;
+}
+main{
+    margin: 0px;
+    margin-top: 0px;
+}
+#hero{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/hero\ background4.png") no-repeat;
+    margin-top: 0px;
+    background-size: cover;
+    padding-top: 7%;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+}
+
+
+.herotextfirst{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 69.76px;
+    padding: 0px;
+    
+}
+section {
+    margin-bottom: 100px;
+}
+.herotextsecond{
+    color: #404040;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    line-height: 69.76px;
+    padding: 0px;
+    
+}
+
+.herofirstrow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.herocolumn1{
+    width: 55%;
+}
+
+.herocolumn2{
+margin-top: -50px;
+}
+.heroimg{
+max-width: 473px;
+}
+
+.herorow2{
+    background: #FFFFFF;
+    box-shadow: 0px 2.8743px 17.2458px -0.718575px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(28.743px);
+    border-radius: 28.743px;
+    max-width: 1240px;
+    width: calc(100% - 150px);
+    max-height: 202px;
+    padding-top: 12.55px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.herorow2text{
+    margin-left: 48.3px;
+    margin-bottom: 12.82px;
+}
+
+.row2input{
+    box-sizing: border-box;
+    background: #EDECEC;
+    border-radius: 13.0291px;
+    max-width: 280px;
+    max-height: 58.2px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    margin-left: 24.42px;
+    padding-bottom: 14.56px;
+    margin-bottom: 16.8px;
+}
+
+::placeholder{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: rgba(91, 91, 91, 0.47);
+}
+
+.herobtn1{
+    background-color: #4f4f4f;
+    border-radius: 30px;
+    border: none;
+    max-width: 315px;
+    max-height: 56px;
+    margin-top: 24.31px;
+    color: #ffffff;
+    font-size: 18.4739;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    font-weight: 500;
+
+}
+.hero-body{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    max-width: 587px;
+}
+
+.section-head{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #404040
+}
+
+.section-sub-head{
+font-size: 20px;
+line-height: 22.5px;
+text-align: center;
+color: #b4b4b4;
+font-weight: 500;
+font-style: normal;
+margin-bottom: 40.38px;
+}
+
+#our-medical-services{
+margin-left: 75px;
+margin-right: 75px;
+}
+.medical-services{
+    display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.med-service{
+    border: 2px solid #4F4F4F;
+    border-radius: 20px;
+    max-width: 350px;
+    max-height: 260px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 53px;
+}
+
+.medservice-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.5px;
+    line-height: 39px;
+    margin-bottom: 16px;
+}
+
+.medservice-body{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    
+}
+img{
+    z-index: -1;
+}
+.medservice-bottom{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    background: linear-gradient(180deg, #4200FF 0%, #3100BB 100%);
+    border-radius: 18px;
+    border: none;
+    width: 345px;
+    height: 64px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+#medservicebtn{
+margin-right: auto;
+margin-left: auto;
+}
+
+.our-doctors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.doctor-box{
+   
+    box-shadow: 0px 3.43167px 20.59px -0.857918px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(34.3167px);
+    padding-left: 55px;
+    padding-right: 55px;
+    width: 45%;
+    height: 780px;
+}
+
+.doc-image{
+   width: 100%;
+   max-height: 388.8px;
+   margin-bottom: 12.2px;
+}
+
+.doctors-name{
+    font-size: 23.27px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #404040;
+    line-height: 35px;
+}
+
+.doctors-speciality{
+    color: #767676;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.27px;
+    margin-bottom: 40.52px;
+}
+
+.doctor-box-about{
+    color: #404040;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8466px;
+    letter-spacing: 0.004em;
+    margin-bottom: 8.69px;
+}
+
+.doctor-box-about-text{
+    font-size: 17.37px;
+    line-height: 27.8px;
+    font-weight: 400;
+    color: #404040;
+    max-width: 443px;
+}
+
+.doctor-box-see-more{
+    text-decoration: none;
+    color: #4200ff;
+    position: absolute;
+    bottom: 48.77px;
+    right: 26px;
+    letter-spacing: 0.004em;
+    font-weight: 500;
+    font-size: 20.8446px;
+
+}
+
+#Patients-Testimonial{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#homepage-image{
+    max-height: 760px;
+    object-fit: cover;
+}
+
+.section-image{
+    width: 100%;
+}
+
+#doctors-journal{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.journal-con{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.journal-box{
+ width: 30%;
+ border: 2px solid #4F4F4F;
+border-radius: 20px;
+height: 520px;
+}
+
+.journal-box .djimages{
+    width: 100%;
+    object-fit: cover;
+    max-height: 269px;
+    z-index: -1;
+    position: relative;
+    top: 0px;
+}
+.journalspace{
+    color: #4F4F4F;
+}
+
+.twotopmargin{
+    margin-top: 90px;
+}
+
+.djimagecaption{
+    margin-top: -33px;
+    z-index: 100000;
+    background: #4F4F4F;
+    border-radius: 0px 25px 25px 0px;
+    max-width: 80%;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.004em;
+line-height: 21px;
+padding: 17px 12px;
+color: #FFFFFF;
+
+}
+
+.dj-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.004em;
+    color: #000000;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    margin-top: 29px;
+
+}
+
+.db-bottom{
+    letter-spacing: 0.004em;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+margin-left: 14.75px;
+
+}
+
+.db-bottom-image{
+    margin-right: 8px;
+    height: 18.5px;
+    width: 18.5px;
+    object-fit: contain;
+}
+
+.lastsection-subhead{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#homepagelast{
+    margin-bottom: 0px;
+    padding: 100px 0px;
+    background: url("../images/reverseherobackground.png");
+}
+
+footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #404040;
+
+}
+
+.hmepagecloserbutton{
+    margin-top: 19px;
+    background: #4F4F4F;
+    border-radius: 30px;
+    color: #ffffff;
+    font-style: normal;
+font-weight: 500;
+font-size: 18.4739px;
+line-height: 28px;
+padding: 12px 23px;
+border: none;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+justify-content: center;
+}
+
+.lastsection-subhead{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff
+}
