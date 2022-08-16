@@ -25,46 +25,65 @@ main{
 #hero{
     max-height: 990px;
     width: 100%;
-    background: url("../images/herobackgroundnew2.png") no-repeat;
+    background: ;
     margin-top: 0px;
     background-size: cover;
-    padding-top: 47px;
+    /*padding-top: 59px;*/
     padding-left: 60px;
     padding-right: 60px;
     background-repeat: no-repeat;
     background-position: center top;
     
 }
-.nav{
+nav{
 
     display: flex;
     justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 59px;;
+   
 
+}
+.nav img{
+    max-width: 160px;
+    max-height: 120px;
+    margin-top: -39px;
 }
  .navlist{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     min-width: 55%;
-    color: #ffffff;
+    color: #161616;
     size: 18.47px;
  }
 
  .navbtn{
     box-sizing: border-box;
     height: 45px;
-    padding-top: 10px;
-    background-color: #4f4f4f;
+    background-color: #208703;
 border-radius: 30px;
-padding-left: 20px;
-width: 220px;
+min-width: 220px;
 margin-top: -10px;
-
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 
  }
 
+ .navbtn img{
+    width: 16px;
+    height: 24px;
+    margin-left: 15px;
+    position: relative;
+    margin-top: -11px;
+ }
+
 .herotextfirst{
-    color: #ffffff;
+    color: #f4941f;
     font-size: 64px;
     font-weight: 600;
     margin-bottom: 0px;
@@ -74,10 +93,10 @@ margin-top: -10px;
     
 }
 section {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .herotextsecond{
-    color: #404040;
+    color: #161616;
     font-size: 64px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -107,41 +126,62 @@ section {
     width: 55%;
 }
 
-.herocolumn2{
-margin-top: -60px;
+.herocolumn2 img{
+position: absolute;
+top: 59px;
+right: 0px; 
+width: 776.47px;
+height: 600px;
 }
 .heroimg{
 max-width: 550px;
 }
 .row2trigger{
     float: right;
-    background: #4F4F4F;
-border-radius: 18px;
+    background: linear-gradient(180deg, #26AC00 0%, #166600 100%, #166600 100%);
+border-radius: 10px;
 padding: 10px 20px;
 border: none;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 30px;
+line-height: 28px;
 color: #e0e0e0;
+max-height: 45px;
+max-width: 137px;
 }
 .herorow2{
     background: #FFFFFF;
     box-shadow: 0px 2.8743px 17.2458px -0.718575px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(28.743px);
     border-radius: 28.743px;
-    height: 190px;
-    padding-top: 12.55px;
+    max-height: 220px;
+    padding-top: 25.55px;
     margin-right: 100px;
     margin-left: 100px;
     justify-content: center;
-    padding-right: 30px;
+    padding-right: 48.3px;
     padding-left: 30px;
-    margin-top: -75px;
+    margin-top: 50px;
+    padding-bottom: 72px;
+    margin-bottom: 25px;
 }
 .row2form{
     display: flex;
     justify-content: space-between;
+}
+
+.down-arrow{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-arrow img{
+    width: 14px;
+    height: 22px;
 }
 
 .row2form2{
@@ -177,9 +217,10 @@ margin-left: -25px;
 }
 
 .herorow2text{
-    margin-bottom: 12.82px;
-    font-size: 20px;
-    margin-left: 24px;
+    margin-bottom: 11.45px;
+    font-size: 36px;
+    color: #404040;
+    font-weight: 600;
 }
 
 .herobtn{
@@ -206,7 +247,7 @@ margin-left: -25px;
 .reasonforappointment{
     box-sizing: border-box;
     background: #EDECEC;
-    border-radius: 13.0291px;
+    border-radius: 10px;
     width: 48.2%;
     height: 120px;
     padding-top: 15px;
@@ -219,14 +260,14 @@ margin-left: -25px;
 
 .row2input{
     box-sizing: border-box;
-    background: #EDECEC;
+    background: #ffffff;
     border-radius: 13.0291px;
-    max-width: 280px;
-    max-height: 58.2px;
+    max-width: 306px;
+    max-height: 59px;
     padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    border: none;
+    border: 1px solid rgba(119, 119, 119, 0.2);
     padding-bottom: 14.56px;
     margin-bottom: 16.8px;
 }
@@ -240,7 +281,7 @@ color: rgba(91, 91, 91, 0.47);
 }
 
 .herobtn1{
-    background-color: #4f4f4f;
+    background-color: #208703;
     border-radius: 30px;
     border: none;
     max-width: 315px;
@@ -249,10 +290,20 @@ color: rgba(91, 91, 91, 0.47);
     color: #ffffff;
     font-size: 18.4739;
     padding-top: 14px;
-    padding-left: 20px;
+    
     padding-bottom: 14px;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.herobtn1 img{
+    width: 16px;
+    height: 24px;
+    margin-left: 15px;
 }
 
 .wrapper{
@@ -267,7 +318,7 @@ color: rgba(91, 91, 91, 0.47);
 
 .hero-body{
     font-size: 20px;
-    color: #ffffff;
+    color: #353D46;
     font-weight: 400;
     line-height: 30px;
     font-style: normal;
@@ -275,14 +326,15 @@ color: rgba(91, 91, 91, 0.47);
 }
 
 .section-head{
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 62px;
+    font-weight: 600;
     line-height: 72px;
     text-align: center;
-    margin-bottom: 5px;
-    color: #404040
+    margin-bottom: 15px;
+    color: #f4941f;
 }
 .patientstestimonies{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -327,7 +379,7 @@ color: rgba(91, 91, 91, 0.47);
 }
 .section-sub-head{
 font-size: 20px;
-line-height: 22.5px;
+line-height: 32px;
 text-align: center;
 color: #b4b4b4;
 font-weight: 500;
@@ -348,7 +400,7 @@ padding-right: 100px;
 }
 
 .med-service{
-    border: 2px solid #4F4F4F;
+    border: 1px solid #ef5c26;
     border-radius: 20px;
     max-width: 350px;
     max-height: 260px;
@@ -358,12 +410,25 @@ padding-right: 100px;
     padding-bottom: 53px;
 }
 
+.med-service:hover{
+background: #ef5c26;
+}
+
+.med-service:hover .medservice-title{
+    color: #ffffff;
+}
+
+.med-service:hover .medservice-body{
+    color: #ffffff;
+}
+
 .medservice-title{
     font-style: normal;
     font-weight: 600;
     font-size: 19.5px;
     line-height: 39px;
     margin-bottom: 16px;
+    color: #161616;
 }
 
 .medservice-body{
@@ -371,7 +436,7 @@ padding-right: 100px;
     line-height: 24px;
     letter-spacing: 0.01em;
     font-weight: 400;
-    
+    color: #777777;
 }
 
 .medservice-bottom{
@@ -380,8 +445,8 @@ padding-right: 100px;
     line-height: 28px;
     font-style: normal;
     font-weight: 500;
-    background: linear-gradient(180deg, #4200FF 0%, #3100BB 100%);
-    border-radius: 18px;
+    background: linear-gradient(180deg, #26AC00 0%, #166600 100%);
+border-radius: 18.2408px;
     border: none;
     width: 345px;
     height: 64px;
@@ -414,6 +479,7 @@ margin-left: auto;
     padding-right: 55px;
     width: 45%;
     height: 780px;
+    border-radius: 16px;
 }
 
 .doc-image{
@@ -460,7 +526,7 @@ margin-left: auto;
 
 .doctor-box-see-more{
     text-decoration: none;
-    color: #4200ff;
+    color: #f4941f;
     position: absolute;
     bottom: 48.77px;
     right: 26px;
@@ -471,17 +537,41 @@ margin-left: auto;
 }
 
 #Patients-Testimonial{
+    position: relative;
     padding-right: 100px;
     padding-left: 100px;
 }
 
+.navbtnpt{
+    max-height: 46.04px;
+    max-width: 46.04px;
+    position: absolute;
+    z-index: 100;
+    left: -23px;
+    top: 42%;  
+}
+
+.navbtnpt2{
+    max-height: 46.04px;
+    max-width: 46.04px;
+    position: absolute;
+    z-index: 100;
+    right: -23px;
+    top: 42%;  
+}
+
 #homepage-image{
-    max-height: 760px;
-    object-fit: cover;
+    height: 760px;
+    position: relative;
+    background: url("../images/sectionbg.svg");
+    background-repeat: no-repeat;
+    padding: 0px 120px;
 }
 
 .section-image{
-    width: 100%;
+    position: absolute;
+    height: 100%;
+    max-width: calc(100% - 200px);
 }
 
 #doctors-journal{
@@ -500,15 +590,17 @@ margin-left: auto;
  border: 2px solid #4F4F4F;
 border-radius: 20px;
 height: 520px;
+z-index: 0;
 }
 
 .journal-box .djimages{
     width: 100%;
     object-fit: cover;
     max-height: 269px;
-    z-index: -1;
     position: relative;
     top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    z-index: -1;
 }
 .journalspace{
     color: #4F4F4F;
@@ -518,10 +610,10 @@ height: 520px;
     margin-top: 90px;
 }
 
-.djimagecaption{
+.journal-box .djimagecaption{
     margin-top: -33px;
-    z-index: 100000;
-    background: #4F4F4F;
+    z-index: 1000;
+    background: #ef5c26;
     border-radius: 0px 25px 25px 0px;
     max-width: 80%;
     font-style: normal;
@@ -534,6 +626,17 @@ color: #FFFFFF;
 
 }
 
+.journal-box:hover{
+    background: #ef5c26;
+}
+
+.journal-box:hover .dj-p{
+    color: #ffffff;
+}
+
+.journal-box:hover .db-bottom{
+    color: #ffffff;
+}
 .dj-p{
     font-style: normal;
     font-weight: 400;
@@ -567,36 +670,51 @@ margin-left: 14.75px;
 .lastsection-subhead{
     text-align: center;
     margin-bottom: 8px;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 #homepagelast{
+    position: relative;
     margin-bottom: 0px;
-    padding: 100px 0px;
-    background: url("../images/reverseherobackground.png");
+    padding: 124px 0px;
+    max-height: 443px;
+    background: linear-gradient(90deg, #EF5C27 0%, #F17823 48%, #F39320 100%);
 }
 
 footer{
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #404040;
+    background-color: #161616;
 
 }
-
+.bottom-icon{
+    margin-right: 10.45px;
+}
+.footerdivider{
+    height: 2px;
+    width: 100%;
+}
 .hmepagecloserbutton{
     margin-top: 19px;
-    background: #4F4F4F;
+    background: #ffffff;
     border-radius: 30px;
-    color: #ffffff;
+    color: #208703;
     font-style: normal;
 font-weight: 500;
-font-size: 18.4739px;
+font-size: 16px;
 line-height: 28px;
 padding: 12px 23px;
 border: none;
 margin-right: auto;
 margin-left: auto;
 display: flex;
-width: 230px;
+flex-direction: row;
+max-width: 306px;
+}
+
+.hmepagecloserbutton img{
+    margin-left: 15px;
 }
 
 .lastsection-subhead{
@@ -612,7 +730,7 @@ footer{
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 70px;
-    background-color: #4f4f4f;
+    background-color: #161616;
     display: flex;
     flex-direction: column;
 }
@@ -621,10 +739,23 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 2px solid #d9d9d9;
-    padding-bottom: 50px;
+    border-bottom: 2px solid linear-gradient(90deg, #EF5C27 0%, #F17823 48%, #F39320 100%);
+    border-color: linear-gradient(90deg, #EF5C27 0%, #F17823 48%, #F39320 100%);
+    padding-bottom: 38px;
 }
-
+.watermark{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30%;
+    top: 30px;
+}
+.r1c1 img{
+    width: 160px;
+    height: 120px;
+    margin-top: -30px;
+}
 .r1c4{
     display: flex;
     justify-content: space-between;
@@ -659,7 +790,7 @@ footer{
     letter-spacing: 0.004em;
     font-size: 18px;
     font-weight: 400;
-    color: #000000; 
+    color: #208703; 
 }
 
 .footerrow2{
