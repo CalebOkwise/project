@@ -26,7 +26,8 @@ ul{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #4f4f4f;
+    /*ccc;*/
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -44,7 +45,8 @@ ul{
   }
   
   input:checked + .slider {
-    background-color: #333333;
+    background-color: #208703;
+    /*333333;*/
   }
   
   input:focus + .slider {
