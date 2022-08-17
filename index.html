@@ -16,8 +16,10 @@
     <body>
 
         <main>
+            <header>
+            <div class="overlay off"></div>
             <nav class="nav">
-                <img src="images/logo.png">
+                <img src="images/navlogo.svg">
                     <div class="navlist">
                     <ul>
                         <li>
@@ -34,6 +36,7 @@
                 </div>
             </nav>
             <section id="hero">
+                <img src="images/watermark.svg" class="herowatermark">
                 <div class="herofirstrow">
                 <div class="herocolumn1">
                     <p class="herotextfirst"> We care</p>
@@ -49,8 +52,14 @@ being and it does not just mean absence of diseases.</p>
               </div>
             </div>
             <div id="animate" class="herorow2">
+                <div class="popupheader">
                 <p class="herorow2text">Book an appointment</p>
+                <button class="cancelbtn off">
+                    <img src="images/close.svg" alt="click to close">
+                </button>
+            </div>
                 <div class="row2form">
+                    <div class="firstline">
                 <input type="text" placeholder="First name" name="Firstname" class="row2input">
                 <input type="text" placeholder="Last name" name="Last name" class="row2input">
                 <input type="tel" placeholder="Phone number" name="Phone number" class="row2input">
@@ -58,38 +67,40 @@ being and it does not just mean absence of diseases.</p>
                     NEXT <img src="images/ddarrows.png" class="trgimg">
                 </button>
             </div>
-                
-
-                <div class="row2form2 off">
-                    <input type="textarea" name="reasonforappointment" placeholder="Reason for appointment" class="reasonforappointment">
-                    <div class="toggleswitch">
-                    <div class="check1">
-                        Gastroentrology
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider round"></span>
-                      </label>
-                      </div>
-                      <div class="check2">
-                      Dermatology
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                      </label>
-                    </div>
-                    </div>
-                    <button class="herobtn">
-                        Book appointment    
-                        </button>
-
-
+            <div class="row2form2 off">
+                <div class="toggleswitch">
+                <div class="check1">
+                    Gastroentrology
+                <label class="switch">
+                    <input type="checkbox" checked value="gastroentrology">
+                    <span class="slider round"></span>
+                  </label>
+                  </div>
+                  <div class="check2">
+                  Dermatology
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
                 </div>
+                </div>
+                <input type="textarea" name="reasonforappointment" placeholder="Reason for appointment" class="reasonforappointment">
+                </div>
+                </div>
+                <div>
+                <button class="herobtn off">
+                    Book appointment <img src="images/favicon.png">   
+                    </button>
+                </div>
+
+                
+                
                 </div>
                 <div class="down-arrow">
                     <img src="images/union-1.svg">
                 </div>
-
             </section>
+            </header>
         <section id="our-medical-services">
             <p class="section-head"> Our Medical Services </p>
             <p class="section-sub-head">
