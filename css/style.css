@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,9 @@ html{
 body{
 margin: 0px;
 margin-top: 0px;
+max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
 
 }
 main{
@@ -25,16 +30,15 @@ header{
     background: #fcfdf2;
 }
 #hero{
-    max-height: 990px;
-    width: 100%;
+    position: relative;
     background: #fcfdf2;
     margin-top: 0px;
     background-size: cover;
     /*padding-top: 59px;*/
     padding-left: 60px;
     padding-right: 60px;
-    background-repeat: no-repeat;
-    background-position: center top;
+    padding-bottom: 51px;
+
     
 }
 .herowatermark{
@@ -43,19 +47,19 @@ header{
     left: 0;
 }
 nav{
-
+    position: relative;
     display: flex;
     background: #fcfdf2;
     justify-content: space-between;
     padding-right: 60px;
     padding-left: 60px;
     padding-top: 59px;;
-   
+   z-index: 20;
 
 }
 .nav img{
-    max-width: 160px;
-    max-height: 120px;
+    max-width: 149px;
+    max-height: 101px;
     margin-top: -39px;
 }
  .navlist{
@@ -64,16 +68,18 @@ nav{
     justify-content: space-between;
     min-width: 55%;
     color: #161616;
-    size: 18.47px;
+    size: 16px;
  }
 
  .navbtn{
     box-sizing: border-box;
-    height: 45px;
+    height: 51px;
     background-color: #208703;
 border-radius: 30px;
-min-width: 220px;
-margin-top: -10px;
+/*min-width: 220px;*/
+max-width: 255px;
+padding: 14px 23px;
+margin-top: -13px;
 display: flex;
     flex-direction: row;
     align-items: center;
@@ -87,7 +93,7 @@ display: flex;
     height: 24px;
     margin-left: 15px;
     position: relative;
-    margin-top: -11px;
+    margin-top: 0px;
  }
 
 .herotextfirst{
@@ -96,8 +102,9 @@ display: flex;
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 0px;
-    line-height: 69.76px;
-    padding: 0px;
+    line-height: 67.2px;
+    padding: 0;
+    letter-spacing: -0.001em;
     
 }
 section {
@@ -107,9 +114,9 @@ section {
     color: #161616;
     font-size: 64px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15.69px;
     margin-top: 0px;
-    line-height: 69.76px;
+    line-height: 67.2px;
     padding: 0px;
     
 }
@@ -145,19 +152,26 @@ z-index: 199000;
 }
 
 .herocolumn1{
-    width: 55%;
+    max-width: 600px;
 }
 
-.herocolumn2 img{
-position: absolute;
-top: 59px;
+.herocolumn2 {
+position: relative;
+z-index: 1;
+top: -242px;
+object-fit: cover;
 right: 0px; 
-width: 776.47px;
+max-width: 647px;
 height: 600px;
 }
+
+/*
+Code to rewrite for screens lesser than 1400px
 .heroimg{
 max-width: 550px;
 }
+
+*/
 .row2trigger{
     float: right;
     background: linear-gradient(180deg, #26AC00 0%, #166600 100%, #166600 100%);
@@ -169,10 +183,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 28px;
 color: #e0e0e0;
-max-height: 45px;
-max-width: 137px;
+height: 59px;
+width: 137px;
 }
 .herorow2{
+    position: relative;
+    margin-top: -140px;
     background: #FFFFFF;
     box-shadow: 0px 2.8743px 17.2458px -0.718575px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(28.743px);
@@ -182,11 +198,12 @@ max-width: 137px;
     margin-right: 100px;
     margin-left: 100px;
     justify-content: center;
-    padding-right: 48.3px;
-    padding-left: 30px;
-    margin-top: 50px;
+    padding-right: 47px;
+    padding-left: 48px;
     padding-bottom: 72px;
     margin-bottom: 25px;
+    z-index: 2;
+    max-width: 1240px;
 }
 .firstline{
     display: flex;
@@ -206,6 +223,7 @@ max-width: 137px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .down-arrow img{
@@ -319,9 +337,9 @@ margin-left: -25px;
     box-sizing: border-box;
     background: #ffffff;
     border-radius: 13.0291px;
-    width: 25%;
+    width: 27%;
     /*max-width: 306px;*/
-    max-height: 59px;
+    height: 59px;
     padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -377,12 +395,12 @@ color: rgba(91, 91, 91, 0.47);
 }
 
 .hero-body{
-    font-size: 20px;
+    font-size: 18px;
     color: #353D46;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 26px;
     font-style: normal;
-    max-width: 587px;
+    max-width: 550px;
 }
 
 .section-head{
